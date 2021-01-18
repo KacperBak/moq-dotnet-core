@@ -1,0 +1,14 @@
+{
+    "rest-client.environmentVariables": {
+        "local": {
+            "scheme": "http",
+            "host": "localhost",
+            "port": "5000",
+        },
+        "cloud": {
+            "scheme": "http",
+            "host": "35.242.195.45",
+            "port": "80",
+        }
+    }
+}

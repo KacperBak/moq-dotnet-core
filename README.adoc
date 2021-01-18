@@ -1,0 +1,11 @@
+# README
+
+Simple dotnet core webapi project in C# with interdepending service calls to demonstrate how https://github.com/Moq/moq4/wiki/Quickstart[moq] can be applied.
+
+## Plugins
+- https://github.com/Huachao/vscode-restclient[vscode-restclient] used for the `http` module instead of postman.
+
+## Sources
+- https://github.com/Moq/moq4/wiki/Quickstart
+- https://softchris.github.io/pages/dotnet-moq.html#the-api-project
+- https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-5.0

@@ -1,0 +1,17 @@
+POST {{scheme}}://{{host}}:{{port}}/cart
+content-type: application/json
+
+{
+  "card": {
+    "cardNumber": "0000-1111-2222-3333-4444",
+    "name": "Awesome Card",
+    "validTo": "0002-01-01T00:00:00"
+  },
+  "addressInfo": {
+    "street": "Happy Road",
+    "address": "0815",
+    "city": "Happy Town",
+    "postalCode": "0123456789",
+    "phoneNumber": "0049-123456"
+  }
+}
